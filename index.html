@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+  <TITLE> ToDoList</TITLE>
+   <meta charset="utf-8"/>
+   <script src="js/jquery-1.11.3.js"></script>
+   <script src="js/main.js"></script>
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+ </HEAD>
+ <BODY>
+ 	<div class="container">
+ 	<!--左侧备忘列表和操作按钮-->
+ 	<h1 class="text-primary">ToDoList</h1>
+ 		<div id="left">
+			<ul id="noteList"></ul>
+			<div>
+				<button  class="btn btn-primary btn-block">What's Next</button>
+			</div>
+		</div>
+	<!--右侧表单-->
+		<div id="right">
+			<span class="glyphicon glyphicon-tasks"></span>&nbsp;&nbsp;&nbsp;
+			<input id="title" type="text"/><br/>
+			<span class="glyphicon glyphicon-edit"></span><br/>
+			<textarea id="content" cols="30" rows="10"></textarea><br/>
+			<button class="btn btn-success btn-block">Save</button>
+		</div>
+ 	</div>
+ </BODY>
+</HTML>
