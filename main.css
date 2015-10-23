@@ -1,0 +1,38 @@
+*{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+.selected{
+	background:silver;
+}
+#left{
+	float:left;
+	margin-top: 90px;
+	width: 600px;
+}
+#right{
+	float:left;
+	margin-top:90px;
+	margin-left:30px;
+	display: none;
+}
+#noteList{
+	border-style:ridge;
+	min-height:300px;
+	position: relative;
+}
+#noteList li{
+	position: relative;
+	left: 0;
+	background-color: #acd589;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	text-indent: 1.5em;
+	margin-top: 2px;
+}
+#noteList li:hover{
+	cursor: pointer;
+}
